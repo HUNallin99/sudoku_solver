@@ -35,7 +35,7 @@ def create_gui(callback):
         root.destroy()
 
     def show_easter_egg():
-        messagebox.showinfo("Easter Egg", "csicskák a kicsik!")
+        messagebox.showinfo("Easter Egg", "Vagyok végig!")
 
     root = tk.Tk()
     root.title("Sudoku kiválasztása és megoldása")
@@ -69,11 +69,11 @@ def create_gui(callback):
         root,
         text="Bezárás",
         command=quit_app,
-        bg="red",  # Piros háttérszín
-        activebackground="red",  # Piros aktív háttérszín
-        fg="white",  # Fehér szöveg
-        font=("Arial", 12),  # Betűtípus
-        pady=5  # Belső margó
+        bg="red",
+        activebackground="red",
+        fg="white",
+        font=("Arial", 12),
+        pady=5
     )
     quit_button.pack(pady=10)
 
